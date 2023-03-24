@@ -1,5 +1,3 @@
-# scripts
-
 Collection of Zsh and Deno executables
 
 - [Banner](https://github.com/rob-letts/Scripts/blob/main/banner.sh)
