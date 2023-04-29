@@ -1,3 +1,10 @@
-- [Banner](https://github.com/rob-letts/Scripts/blob/main/banner.sh) - source banner.sh
-- [Gittum](https://github.com/rob-letts/scripts/blob/main/gittum.sh) - source gittum.sh
+- Banner
+  - Customer banner for zsh environment
+
+- Gittum - source gittum.sh
+  - Git CLI helper using Charm's Gum
   - Environment Variables `GITTUM_ID`, `GITTUM_PREFIX`
+
+- Work-Env-Setup
+  - Patch various config files
+  - Environment Variables `FILE_ONE_PATH`, `FILE_ONE_TARGET`, `FILE_ONE_PATCH`, `FILE_TWO_PATH`, `FILE_TWO_TARGET`, `FILE_TWO_PATCH` 
