@@ -1,5 +1,5 @@
 - Banner
-  - Customer banner for zsh environment
+  - Custom banner for zsh environment
 
 - Gittum - source gittum.sh
   - Git CLI helper using Charm's Gum
