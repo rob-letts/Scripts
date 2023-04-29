@@ -1,12 +1,5 @@
 import { load } from "https://deno.land/std@0.185.0/dotenv/mod.ts";
-
 const env = await load();
-const fileOnePath = env[`FILE_ONE_PATH`];
-const fileOneTarget = env[`FILE_ONE_TARGET`];
-const fileOnePatch = env[`FILE_ONE_PATCH`];
-const fileTwoPath = env[`FILE_TWO_PATH`];
-const fileTwoTarget = env[`FILE_TWO_TARGET`];
-const fileTwoPatch = env[`FILE_TWO_PATCH`];
 
 type FileParameters = {
   path: string | undefined;
@@ -26,13 +19,13 @@ async function patchFile({ path, target, patch }: FileParameters) {
 }
 
 patchFile({
-  path: fileOnePath,
-  target: fileOneTarget,
-  patch: fileOnePatch
+  path: env[`FILE_ONE_PATH`],  
+  target: env[`FILE_ONE_TARGET`],
+  patch: env[`FILE_ONE_PATCH`]
 });
 
 patchFile({
-  path: fileTwoPath,
-  target: fileTwoTarget,
-  patch: fileTwoPatch
+  path: env[`FILE_TWO_PATH`],
+  target: env[`FILE_TWO_TARGET`],
+  patch: env[`FILE_TWO_PATCH`]
 })
