@@ -1,10 +1,11 @@
 import { load } from "https://deno.land/std@0.185.0/dotenv/mod.ts";
+
 const env = await load();
 
 type FileParameters = {
-  path: string | undefined;
-  target: string | undefined;
-  patch: string | undefined;
+  path: string;
+  target: string;
+  patch: string;
 };
 
 async function patchFile({ path, target, patch }: FileParameters) {
