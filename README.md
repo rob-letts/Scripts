@@ -1,7 +1,7 @@
 - Banner
   - Custom banner for zsh environment
 
-- Gittum - source gittum.sh
+- Gittum
   - Git CLI helper using Charm's Gum
   - Environment Variables `GITTUM_ID`, `GITTUM_PREFIX`
 
