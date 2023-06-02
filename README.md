@@ -1,3 +1,5 @@
+# Deno Scripts
+
 - Banner
   - Custom banner for zsh environment
 
