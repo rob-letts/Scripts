@@ -1,5 +1,8 @@
 {
   "tasks": {
-    "work-env-setup": "deno run --allow-net --allow-read --allow-write src/work-env-setup.ts"
+    "work-env-setup": "deno run --allow-net --allow-read --allow-write src/work-env-setup.ts",
+    "work-env-setup:build": "deno compile --output executables/ src/work-env-setup.ts",
+    "banner": "deno run --unstable --allow-read src/banner.ts",
+    "banner:build": "deno compile --output executables/ --unstable --allow-read src/banner.ts"
   }
 }
