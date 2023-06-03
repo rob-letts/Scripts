@@ -9,9 +9,7 @@ type FileParameters = {
 };
 
 async function patchFile({ path, target, patch }: FileParameters) {
-  if (!path || !target || !patch) {
-    throw new Error(`Missing parameters`);
-  }
+  if (!path || !target || !patch) throw new Error(`Missing parameters`);
 
   const decoder = new TextDecoder(`utf-8`);
   const data = await Deno.readFile(path);
@@ -19,14 +17,10 @@ async function patchFile({ path, target, patch }: FileParameters) {
   await Deno.writeTextFile(path, file.replaceAll(target, patch));
 }
 
-patchFile({
-  path: env[`FILE_ONE_PATH`],  
-  target: env[`FILE_ONE_TARGET`],
-  patch: env[`FILE_ONE_PATCH`]
+[`FILE_ONE`, `FILE_TWO`].forEach((file) => {
+  patchFile({
+    path: env[`${file}_PATH`],
+    target: env[`${file}_TARGET`],
+    patch: env[`${file}_PATCH`],
+  });
 });
-
-patchFile({
-  path: env[`FILE_TWO_PATH`],
-  target: env[`FILE_TWO_TARGET`],
-  patch: env[`FILE_TWO_PATCH`]
-})
