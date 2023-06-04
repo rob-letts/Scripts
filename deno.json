@@ -3,6 +3,10 @@
     "work-env-setup": "deno run --allow-net --allow-read --allow-write src/work-env-setup.ts",
     "work-env-setup:build": "deno compile --output executables/ src/work-env-setup.ts",
     "banner": "deno run --unstable --allow-read src/banner.ts",
-    "banner:build": "deno compile --output executables/ --unstable --allow-read src/banner.ts"
+    "banner:build": "deno compile --output executables/ --unstable --allow-read src/banner.ts",
+    "gittum": "deno run --unstable src/gittum.ts",
+    "gittum:build": "deno compile --output executables/ --unstable --allow-read src/gittum.ts",
+    "bookmarks": "deno run --unstable src/bookmarks.ts",
+    "bookmarks:build": "deno compile --output executables/ --unstable --allow-read src/bookmarks.ts"
   }
 }

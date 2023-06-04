@@ -1,6 +1,5 @@
 const db = await Deno.openKv();
-
-const dbKeys = ["inclusive", "quotes"];
+const dbKeys = ["banner", "quotes"];
 const dbData = await db.get(dbKeys);
 
 if (!dbData.value) {
@@ -10,7 +9,7 @@ if (!dbData.value) {
   await db.set(dbKeys, data);
 }
 
-const { value: quotes } = dbData.value ? dbData : await db.get(dbKeys);
+const { value: quotes } = dbData?.value ? dbData : await db.get(dbKeys);
 if (!Array.isArray(quotes) || !quotes.length) Deno.exit(1);
 
 const randomIndex = Math.floor(Math.random() * quotes?.length);
