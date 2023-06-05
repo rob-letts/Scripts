@@ -27,20 +27,21 @@ async function makeCommit(runTimeData: RunTimeData) {
     runTimeData,
   );
 
-  const command = new Deno.Command("git", {
-    args: [
-      "commit",
-      "-m",
-      commitMessage,
-    ],
+  await spawnSubProcess("git", "commit", "-m", commitMessage);
+}
+
+async function spawnSubProcess(command: string, ...args: string[]) {
+  const subprocess = new Deno.Command(command, {
+    args,
     stdin: "piped",
     stdout: "piped",
   });
 
-  const commandOutput = await command.spawn().output();
+  const commandOutput = await subprocess.spawn().output();
   console.log(new TextDecoder().decode(commandOutput.stdout));
 }
 
+// TODO:
 async function deleteBranches() {
   await Promise.resolve();
   console.log("deleted some branches");
@@ -52,6 +53,15 @@ async function deleteBranches() {
   // get confirmation
   // if confirmed
   // delete branch
+
+  // CURRENT_BRANCH=$(git branch --show-current)
+  // for branch in $(gum choose --cursor-prefix "[ ] " --selected-prefix "[✓] " --no-limit $(git for-each-ref --format='%(refname:short)' refs/heads)); do
+  //   if [ $branch = $CURRENT_BRANCH ]; then
+  //     echo "Cannot delete $branch as it is the current branch"
+  //   else
+  //     gum confirm "Delete branch: $branch" && git branch -D "$branch"
+  //   fi
+  // done
 }
 
 async function setNewId(runTimeData: RunTimeData) {
