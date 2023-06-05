@@ -1,76 +1,49 @@
 const db = await Deno.openKv();
 
-const { value: prefix } = await db.get(["gittum", "prefix"]);
-if (!prefix) {
-  const prefix = prompt("Enter a prefix for your commit messages");
-  await db.set(["gittum", "prefix"], prefix);
-}
+async function main() {
+  const runTimeData = await getInitialData();
+  const options = getOptions();
 
-const { value: id } = await db.get(["gittum", "id"]);
-if (!id) {
-  const id = prompt("Enter an id for your commit messages");
-  await db.set(["gittum", "id"], id);
-}
+  while (true) {
+    console.log("\n%cLet's Gittum", "color: red");
 
-const { value: prefixValue } = prefix?.value
-  ? prefix
-  : await db.get(["gittum", "prefix"]);
+    options.forEach((option) => console.log(option.name));
+    const choice = promptUser("");
 
-const { value: idValue } = id?.value ? id : await db.get(["gittum", "id"]);
-
-function validInput(input: string, options: string[]): boolean {
-  const num = Number(input);
-  return !isNaN(num) && num > 0 && num - 1 < options.length;
-}
-
-function formatInput(input: string) {
-  return Number(input) - 1;
-}
-
-// TODO: add handler to call when option is chosen
-const options = [
-  "Update ID",
-  "Update Prefix",
-  "Make Commit",
-  "Delete Branches",
-].map((item, index) => `${index + 1}. ${item}`);
-
-while (true) {
-  console.log("%cLet's Gittum", "color: red");
-
-  options.forEach((option) => console.log(option));
-  const choice = prompt("");
-
-  if (choice && validInput(choice, options)) {
-    console.log(options[formatInput(choice)]);
-  } else {
-    console.error("Invalid input");
+    if (isValidInput(choice, options)) {
+      console.log(options[getFormattedInput(choice)].name);
+      await options[getFormattedInput(choice)].fn(runTimeData);
+    } else {
+      console.error("Invalid input");
+    }
   }
 }
 
-function setNewId() {
-  // 1. set new id
-  // get id input
-  // save id input
+await main();
+
+async function makeCommit(runTimeData: RunTimeData) {
+  const commitMessage = getCommitMessage(
+    promptUser("Enter your commit message: "),
+    runTimeData,
+  );
+
+  const command = new Deno.Command("git", {
+    args: [
+      "commit",
+      "-m",
+      commitMessage,
+    ],
+    stdin: "piped",
+    stdout: "piped",
+  });
+
+  const commandOutput = await command.spawn().output();
+  console.log(new TextDecoder().decode(commandOutput.stdout));
 }
 
-function setNewPrefix() {
-  // 2. set new prefix
-  // get prefix input
-  // save prefix input
-}
-
-function makeCommit() {
-  // 3. commit
-  // get commit message
-  // const commitMessage = prompt("Enter a commit message");
-  // const commit = `[${prefixValue}-${idValue}] ${commitMessage}`;
-  // concatenate prefix, id, and commit message
-  // commit
-  // exit
-}
-
-function deleteBranches() {
+async function deleteBranches() {
+  await Promise.resolve();
+  console.log("deleted some branches");
   // 4. delete branches
   // get current branch
   // get branches
@@ -80,3 +53,97 @@ function deleteBranches() {
   // if confirmed
   // delete branch
 }
+
+async function setNewId(runTimeData: RunTimeData) {
+  const id = promptUser("Enter an ID value for your commit messages");
+  await db.set(getStoreKey(runTimeData, "id"), id);
+  runTimeData.fields.id.value = id;
+  return id;
+}
+
+async function setNewPrefix(runTimeData: RunTimeData) {
+  const prefix = promptUser("Enter a prefix for your commit messages");
+  await db.set(getStoreKey(runTimeData, "prefix"), prefix);
+  runTimeData.fields.prefix.value = prefix;
+}
+
+function getFormattedInput(input: string) {
+  return Number(input) - 1;
+}
+
+function getOptions(): Option[] {
+  return [
+    { name: "Update ID", fn: setNewId },
+    { name: "Update Prefix", fn: setNewPrefix },
+    { name: "Make Commit", fn: makeCommit },
+    { name: "Delete Branches", fn: deleteBranches },
+  ].map((item, index) => {
+    return {
+      ...item,
+      name: `${index + 1}. ${item.name}`,
+    };
+  });
+}
+
+function getStoreKey(data: RunTimeData, field: Field) {
+  return [data.libName, data.fields[field].key];
+}
+
+async function getInitialData(): Promise<RunTimeData> {
+  const runTimeData: RunTimeData = {
+    libName: "gittum",
+    fields: {
+      prefix: { value: "", key: "prefix" },
+      id: { value: "", key: "id" },
+    },
+  };
+
+  const { value: prefixValue } = await db.get(
+    getStoreKey(runTimeData, "prefix"),
+  );
+  const { value: idValue } = await db.get(getStoreKey(runTimeData, "id"));
+
+  if (!prefixValue || typeof prefixValue !== "string") {
+    await setNewPrefix(runTimeData);
+  } else {
+    runTimeData.fields.prefix.value = prefixValue;
+  }
+
+  if (!idValue || typeof idValue !== "string") {
+    await setNewId(runTimeData);
+  } else {
+    runTimeData.fields.id.value = idValue;
+  }
+
+  return runTimeData;
+}
+
+function promptUser(message: string): string {
+  let value: string | null = "";
+  while (!value) value = prompt(message);
+  return value;
+}
+
+function isValidInput(input: string, options: unknown[]): boolean {
+  const num = Number(input);
+  return !isNaN(num) && num > 0 && num - 1 < options.length;
+}
+
+function getCommitMessage(message: string, runTimeData: RunTimeData) {
+  return `[${runTimeData.fields.prefix.value}-${runTimeData.fields.id.value}] ${message}`;
+}
+
+type RunTimeData = {
+  libName: string;
+  fields: {
+    prefix: { value: string; key: string };
+    id: { value: string; key: string };
+  };
+};
+
+type Option = {
+  name: string;
+  fn: (runTimeData: RunTimeData) => Promise<unknown> | unknown;
+};
+
+type Field = keyof RunTimeData["fields"];
