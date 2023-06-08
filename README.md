@@ -1,4 +1,4 @@
-# Deno Scripts
+# Scripts
 
 - Banner
   - Custom banner for opening shell prompt
