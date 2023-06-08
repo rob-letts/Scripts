@@ -30,29 +30,6 @@ async function makeCommit(runTimeData: RunTimeData) {
   await spawnSubProcess("git", "commit", "-m", commitMessage);
 }
 
-// TODO:
-async function deleteBranches() {
-  await Promise.resolve();
-  console.log("deleted some branches");
-  // 4. delete branches
-  // get current branch
-  // get branches
-  // offer selection of branches
-  // for each selected branch
-  // get confirmation
-  // if confirmed
-  // delete branch
-
-  // CURRENT_BRANCH=$(git branch --show-current)
-  // for branch in $(gum choose --cursor-prefix "[ ] " --selected-prefix "[✓] " --no-limit $(git for-each-ref --format='%(refname:short)' refs/heads)); do
-  //   if [ $branch = $CURRENT_BRANCH ]; then
-  //     echo "Cannot delete $branch as it is the current branch"
-  //   else
-  //     gum confirm "Delete branch: $branch" && git branch -D "$branch"
-  //   fi
-  // done
-}
-
 async function setNewId(runTimeData: RunTimeData) {
   const id = promptUser("Enter an ID value for your commit messages");
   await db.set(getStoreKey(runTimeData, "id"), id);
@@ -75,7 +52,6 @@ function getOptions(): Option[] {
     { name: "Update ID", fn: setNewId },
     { name: "Update Prefix", fn: setNewPrefix },
     { name: "Make Commit", fn: makeCommit },
-    { name: "Delete Branches", fn: deleteBranches },
   ].map((item, index) => {
     return {
       ...item,
