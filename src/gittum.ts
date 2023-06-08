@@ -1,6 +1,6 @@
 const db = await Deno.openKv();
 
-async function main() {
+ async function main() {
   const runTimeData = await getInitialData();
   const options = getOptions();
 
@@ -28,17 +28,6 @@ async function makeCommit(runTimeData: RunTimeData) {
   );
 
   await spawnSubProcess("git", "commit", "-m", commitMessage);
-}
-
-async function spawnSubProcess(command: string, ...args: string[]) {
-  const subprocess = new Deno.Command(command, {
-    args,
-    stdin: "piped",
-    stdout: "piped",
-  });
-
-  const commandOutput = await subprocess.spawn().output();
-  console.log(new TextDecoder().decode(commandOutput.stdout));
 }
 
 // TODO:
@@ -141,6 +130,17 @@ function isValidInput(input: string, options: unknown[]): boolean {
 
 function getCommitMessage(message: string, runTimeData: RunTimeData) {
   return `[${runTimeData.fields.prefix.value}-${runTimeData.fields.id.value}] ${message}`;
+}
+
+async function spawnSubProcess(command: string, ...args: string[]) {
+  const subprocess = new Deno.Command(command, {
+    args,
+    stdin: "piped",
+    stdout: "piped",
+  });
+
+  const commandOutput = await subprocess.spawn().output();
+  console.log(new TextDecoder().decode(commandOutput.stdout));
 }
 
 type RunTimeData = {

@@ -1,4 +1,4 @@
-import { load } from "../deps.ts";
+import { load } from "./deps.ts";
 
 const env = await load();
 
