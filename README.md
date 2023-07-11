@@ -10,5 +10,5 @@
   - Environment Variables `FILE_ONE_PATH`, `FILE_ONE_TARGET`, `FILE_ONE_PATCH`,
     `FILE_TWO_PATH`, `FILE_TWO_TARGET`, `FILE_TWO_PATCH`
 
-- Gittum [WIP: conversion from zsh to Deno]
+- Gittum
   - A git commit formatter and branch deleter CLI

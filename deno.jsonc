@@ -5,6 +5,6 @@
     "banner": "deno run --unstable --allow-read src/banner.ts",
     "banner:build": "deno compile --output executables/ --unstable --allow-read src/banner.ts",
     "gittum": "deno run --unstable src/gittum.ts",
-    "gittum:build": "deno compile --output executables/ --unstable --allow-read src/gittum.ts",
+    "gittum:build": "deno compile --output executables/ --unstable --allow-read src/gittum.ts"
   }
 }
