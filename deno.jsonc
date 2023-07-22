@@ -1,10 +1,10 @@
 {
   "tasks": {
     "work-env-setup": "deno run --allow-net --allow-read --allow-write src/work-env-setup.ts",
-    "work-env-setup:build": "deno compile --output executables/ --allow-read --allow-write --allow-env src/work-env-setup.ts",
+    "work-env-setup:build": "deno compile --allow-read --allow-write --allow-env src/work-env-setup.ts",
     "banner": "deno run --unstable --allow-read src/banner.ts",
-    "banner:build": "deno compile --output executables/ --unstable --allow-read src/banner.ts",
+    "banner:build": "deno compile --unstable --allow-read src/banner.ts",
     "bookmarker": "deno run src/bookmarker.ts",
-    "bookmarker:build": "deno compile --output executables/ --allow-read src/bookmarker.ts"
+    "bookmarker:build": "deno compile --allow-read src/bookmarker.ts"
   }
 }
