@@ -1,4 +1,8 @@
-import { load } from "./deps.ts";
+import { load, parse } from "./deps.ts";
+
+const { reverse } = parse(Deno.args, {
+  boolean: ["reverse"],
+});
 
 const env = await load();
 
@@ -14,7 +18,13 @@ async function patchFile({ path, target, patch }: FileParameters) {
   const decoder = new TextDecoder(`utf-8`);
   const data = await Deno.readFile(path);
   const file = decoder.decode(data);
-  await Deno.writeTextFile(path, file.replaceAll(target, patch));
+  await Deno.writeTextFile(
+    path,
+    file.replaceAll(
+      reverse ? patch : target,
+      reverse ? target : patch,
+    ),
+  );
 }
 
 [`FILE_ONE`, `FILE_TWO`].forEach((file) => {
