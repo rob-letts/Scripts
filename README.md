@@ -2,7 +2,7 @@
 
 - Banner
   - Custom banner for opening shell prompt
-  - Draws data from Heydon Pickering's Inclusive Design Checklist
+  - Draws data from a static copy of Heydon Pickering's Inclusive Design Checklist
   - Raw JSON backup required whilst Deno KV is in beta
 
 - Work-Env-Setup
@@ -12,3 +12,6 @@
 
 - Gittum
   - A git commit formatter and branch deleter CLI
+
+- Bookmarker (WIP)
+  - Tool to recall and open saved web resources in your browser, from the command line

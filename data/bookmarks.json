@@ -1,0 +1,1219 @@
+[
+  {
+    "title": "A11y",
+    "contents": [
+      {
+        "href": "https://a11ysupport.io/faq",
+        "label": "Accessibility Support FAQ"
+      },
+      {
+        "href": "https://github.com/Heydon/inclusive-design-checklist",
+        "label": "Inclusive Design-Checklist"
+      },
+      {
+        "href": "https://randoma11y.com/?color=hotpink",
+        "label": "Randoma11y"
+      },
+      {
+        "href": "https://adamsilver.io/blog/the-problem-with-automatically-focusing-the-first-input-and-what-to-do-instead/",
+        "label": "Input Focus"
+      }
+    ]
+  },
+  {
+    "title": "Algorithms",
+    "contents": [
+      {
+        "href": "https://frontendmasters.com/courses/algorithms/",
+        "label": "Front End Masters - Algorithms"
+      }
+    ]
+  },
+  {
+    "title": "Animation",
+    "contents": [
+      {
+        "href": "https://cubic-bezier.com",
+        "label": "Cubic Bezier Generator"
+      },
+      {
+        "href": "https://easings.net/#",
+        "label": "Easing Functions Cheat Sheet"
+      },
+      {
+        "href": "https://animate.style/",
+        "label": "Animate.css - CSS Animation Library"
+      },
+      {
+        "href": "https://msurguy.github.io/flow-lines/",
+        "label": "Flow Lines Generator"
+      },
+      {
+        "href": "https://lab.skk.moe/css-triggers",
+        "label": "CSS Triggers"
+      },
+      {
+        "href": "https://dev.to/uuuuuulala/gradient-along-svg-path-with-gsap-kl4",
+        "label": "SVG Path"
+      },
+      {
+        "href": "https://scroll-driven-animations.style/",
+        "label": "Scroll-Driven Animations"
+      }
+    ]
+  },
+  {
+    "title": "Architecture",
+    "contents": [
+      {
+        "href": "https://www.patterns.dev/posts/islands-architecture",
+        "label": "Islands Architecture"
+      },
+      {
+        "href": "https://learn-vuejs.github.io/vue-patterns/patterns/",
+        "label": "Vue Patterns"
+      }
+    ]
+  },
+  {
+    "title": "Colour",
+    "contents": [
+      {
+        "href": "https://coolors.co/",
+        "label": "Coolors"
+      },
+      {
+        "href": "https://gist.github.com/lopspower/03fb1cc0ac9f32ef38f4",
+        "label": "Hexadecimal Colour"
+      },
+      {
+        "href": "https://m3.material.io/styles/color/overview#!/?view.left=0&view.right=0&primary.color=6002ee",
+        "label": "Material Design 3"
+      },
+      {
+        "href": "https://coolors.co/palettes/trending",
+        "label": "Coolors - Trending"
+      },
+      {
+        "href": "https://www.hsluv.org/",
+        "label": "HSLuv"
+      },
+      {
+        "href": "https://yeun.github.io/open-color/#gray",
+        "label": "Open Color"
+      },
+      {
+        "href": "https://oklch.com/#67.65,0.244,327.555,100",
+        "label": "OKLCH Color Picker"
+      },
+      {
+        "href": "https://www.joshwcomeau.com/shadow-palette/",
+        "label": "Shadow Palette Generator"
+      },
+      {
+        "href": "https://www.joshwcomeau.com/gradient-generator/",
+        "label": "CSS Gradient Generator"
+      },
+      {
+        "href": "https://csshero.org/mesher/",
+        "label": "CSS Mesh Gradients Generator"
+      },
+      {
+        "href": "https://cssgradient.io/",
+        "label": "Gradient — Generator, Maker, and Background"
+      },
+      {
+        "href": "https://hihayk.github.io/scale/#4/6/50/80/-51/67/20/14/A3BC99/163/188//white",
+        "label": "Scale Generator"
+      },
+      {
+        "href": "https://larsenwork.com/easing-gradients/",
+        "label": "Easing Gradients Generator"
+      },
+      {
+        "href": "https://www.conic.style/",
+        "label": "Conic Gradient Generator"
+      },
+      {
+        "href": "https://hihayk.github.io/wheel/",
+        "label": "Colour Wheel"
+      },
+      {
+        "href": "https://huetone.ardov.me/",
+        "label": "Huetone"
+      },
+      {
+        "href": "https://colormixer.web.app/02332971ff623007ff9bc9505a440301ffff7c5f55610300/Sunset",
+        "label": "Parametric Color Mixer"
+      },
+      {
+        "href": "https://patternico.com/",
+        "label": "Seamless Pattern Maker"
+      },
+      {
+        "href": "https://gradient.style/#type=linear&space=oklab&linear_named_angle=to+right&linear_angle=90&stops=%7B%22kind%22%3A%22stop%22%2C%22color%22%3A%22oklch%2870%25+0.5+340%29%22%2C%22auto%22%3A%220%22%2C%22position1%22%3A%220%22%2C%22position2%22%3A%220%22%7D&stops=%7B%22kind%22%3A%22hint%22%2C%22auto%22%3A%2250%22%2C%22percentage%22%3A%2250%22%7D&stops=%7B%22kind%22%3A%22stop%22%2C%22color%22%3A%22oklch%2890%25+0.5+200%29%22%2C%22auto%22%3A%22100%22%2C%22position1%22%3A%22100%22%2C%22position2%22%3A%22100%22%7D",
+        "label": "CSS HD Gradients"
+      },
+      {
+        "href": "https://svggradients.com/",
+        "label": "SVG Gradients"
+      },
+      {
+        "href": "https://www.kodingkitty.com/blog/blend-modes/",
+        "label": "Blend Modes"
+      }
+    ]
+  },
+  {
+    "title": "CSS",
+    "contents": [
+      {
+        "href": "https://smolcss.dev/",
+        "label": "SmolCSS"
+      },
+      {
+        "href": "https://moderncss.dev/",
+        "label": "Modern CSS Solutions"
+      },
+      {
+        "href": "https://defensivecss.dev/",
+        "label": "Defensive CSS"
+      },
+      {
+        "href": "https://supportscss.dev/",
+        "label": "SupportsCSS"
+      },
+      {
+        "href": "https://keyframes.dev/shapes/index.html",
+        "label": "CSS Shapes"
+      }
+    ]
+  },
+  {
+    "title": "CSS Frameworks",
+    "contents": [
+      {
+        "href": "https://picocss.com/",
+        "label": "Pico.css"
+      },
+      {
+        "href": "https://picturepan2.github.io/spectre/",
+        "label": "Spectre.css"
+      },
+      {
+        "href": "https://milligram.io/",
+        "label": "Milligram"
+      },
+      {
+        "href": "http://getskeleton.com/",
+        "label": "Skeleton"
+      },
+      {
+        "href": "https://picnicss.com/documentation#dropimage",
+        "label": "Picnic CSS"
+      },
+      {
+        "href": "https://beta.css.master.co/docs/syntax",
+        "label": "Master CSS"
+      }
+    ]
+  },
+  {
+    "title": "Deno",
+    "contents": [
+      {
+        "href": "https://nest.land/",
+        "label": "Nest Land"
+      }
+    ]
+  },
+  {
+    "title": "Deployment",
+    "contents": [
+      {
+        "href": "https://app.netlify.com/drop",
+        "label": "Netlify Drop"
+      },
+      {
+        "href": "https://deno.com/deploy/docs",
+        "label": "Deno Deploy"
+      }
+    ]
+  },
+  {
+    "title": "Design",
+    "contents": [
+      {
+        "href": "https://designcode.io/figma-handbook",
+        "label": "Figma Handbook"
+      },
+      {
+        "href": "https://designcode.io/ui-design-handbook",
+        "label": "UI Design Handbook"
+      },
+      {
+        "href": "https://uxtools.co/challenges/",
+        "label": "UX Design Challenges"
+      },
+      {
+        "href": "https://dribbble.com/shots",
+        "label": "Dribbble"
+      }
+    ]
+  },
+  {
+    "title": "Dev Tools",
+    "contents": [
+      {
+        "href": "https://devtoolstips.org/",
+        "label": "Find all elements with a specific style"
+      }
+    ]
+  },
+  {
+    "title": "Design Systems",
+    "contents": [
+      {
+        "href": "https://roadmap.sh/design-system",
+        "label": "Design System Roadmap"
+      },
+      {
+        "href": "https://www.designsystemchecklist.com/",
+        "label": "Design System Checklist"
+      },
+      {
+        "href": "https://helios.hashicorp.design/components",
+        "label": "Helios"
+      },
+      {
+        "href": "https://www.raycast.com/JiriTrecak/supernova",
+        "label": "Raycast Store: Supernova"
+      }
+    ]
+  },
+  {
+    "title": "Icons",
+    "contents": [
+      {
+        "href": "https://feathericons.com/",
+        "label": "Feather"
+      },
+      {
+        "href": "https://heroicons.com/",
+        "label": "Heroicons"
+      },
+      {
+        "href": "https://ionic.io/ionicons",
+        "label": "Ionicons"
+      },
+      {
+        "href": "https://www.logggos.club/",
+        "label": "Logggos"
+      },
+      {
+        "href": "https://iconmonstr.com/",
+        "label": "iconmonstr"
+      },
+      {
+        "href": "https://www.manypixels.co/gallery",
+        "label": "ManyPixels"
+      },
+      {
+        "href": "https://lineicons.com/",
+        "label": "Line Icons"
+      }
+    ]
+  },
+  {
+    "title": "Images",
+    "contents": [
+      {
+        "href": "https://squoosh.app/",
+        "label": "Squoosh"
+      },
+      {
+        "href": "https://publicdomainreview.org/",
+        "label": "The Public Domain Review"
+      },
+      {
+        "href": "https://cleanup.pictures/",
+        "label": "Cleanup.pictures"
+      },
+      {
+        "href": "https://magicstudio.com/",
+        "label": "Magic Studio"
+      },
+      {
+        "href": "https://avif.io/",
+        "label": "AVIF Converter"
+      }
+    ]
+  },
+  {
+    "title": "Inspiration",
+    "contents": [
+      {
+        "href": "https://www.blackspike.com/",
+        "label": "Blackspike Design"
+      },
+      {
+        "href": "https://robots.management/",
+        "label": "Inhuman Conditions"
+      },
+      {
+        "href": "https://www.secrethitler.com/#objectors",
+        "label": "Secret Hitler"
+      },
+      {
+        "href": "https://www.creativesouth.com/",
+        "label": "Creative South"
+      },
+      {
+        "href": "https://nightjar.co/",
+        "label": "Nightjar"
+      },
+      {
+        "href": "https://bowndsranches.com/",
+        "label": "Bownds Ranches"
+      },
+      {
+        "href": "https://www.midjourney.com/home/",
+        "label": "Midjourney"
+      },
+      {
+        "href": "https://editorialnew.com/",
+        "label": "Ędītőrįał Nėw"
+      },
+      {
+        "href": "https://www.meowlivia.com/",
+        "label": "Olivia Ng"
+      },
+      {
+        "href": "https://lynnandtonic.com/",
+        "label": "Lynn Fisher"
+      },
+      {
+        "href": "https://unseen.co/",
+        "label": "Unseen Studio"
+      },
+      {
+        "href": "https://yuyangluo.com/more",
+        "label": "Victor Yuyang Luo"
+      },
+      {
+        "href": "https://www.studiogusto.com/",
+        "label": "Studiogusto"
+      },
+      {
+        "href": "http://emilynguyen.co/",
+        "label": "Emily Nguyen"
+      },
+      {
+        "href": "https://www.lizvwells.com/",
+        "label": "Liz Wells"
+      },
+      {
+        "href": "https://kirschberg.co.nz/",
+        "label": "Kirschberg"
+      },
+      {
+        "href": "https://www.closedonmonday.studio/",
+        "label": "Closed On Monday"
+      },
+      {
+        "href": "https://www.inscryption.com/",
+        "label": "Inscryption"
+      },
+      {
+        "href": "https://press.stripe.com/",
+        "label": "Stripe Press"
+      },
+      {
+        "href": "https://next.junni.co.jp/",
+        "label": "Junni"
+      },
+      {
+        "href": "https://www.srbijasans.rs/",
+        "label": "Srbija Sans Font"
+      },
+      {
+        "href": "https://www.other.world/",
+        "label": "OTHERWORLD"
+      },
+      {
+        "href": "https://www.peppasauce.love/",
+        "label": "Mama Joyce Peppa Sauce"
+      },
+      {
+        "href": "https://openingline.co/",
+        "label": "Opening Line"
+      },
+      {
+        "href": "https://www.pixelhop.io/our-work/",
+        "label": "Pixelhop"
+      },
+      {
+        "href": "https://henry.codes/",
+        "label": "Henry From Online"
+      },
+      {
+        "href": "https://designsystems.international/",
+        "label": "Design Systems International"
+      },
+      {
+        "href": "https://thecodingtrain.com/",
+        "label": "The Coding Train"
+      },
+      {
+        "href": "https://maxbittker.github.io/broider/",
+        "label": "Broider"
+      },
+      {
+        "href": "https://www.nationalgeographic.com/new-york-city-skyline-tallest-midtown-manhattan/",
+        "label": "National Geographic"
+      },
+      {
+        "href": "https://curious.co/team/",
+        "label": "Curious Company"
+      },
+      {
+        "href": "https://www.nightingale.world/",
+        "label": "Nightingale"
+      },
+      {
+        "href": "https://www.iegao.co.jp/",
+        "label": "iegao"
+      },
+      {
+        "href": "https://dala.craftedbygc.com/",
+        "label": "Dala"
+      },
+      {
+        "href": "https://www.thebonesco.com/studio",
+        "label": "Bones Co."
+      },
+      {
+        "href": "https://tacto-inc.com/whatwedo.html",
+        "label": "tacto Inc."
+      },
+      {
+        "href": "https://www.carinadelvalleschorske.com/writing",
+        "label": "Carina del Valle Schorske"
+      },
+      {
+        "href": "https://neal.fun/space-elevator/",
+        "label": "Space Elevator"
+      },
+      {
+        "href": "https://neal.fun/",
+        "label": "Neal.fun"
+      },
+      {
+        "href": "https://www.chichidining.com.au/",
+        "label": "Chi Chi"
+      },
+      {
+        "href": "https://annajona.is/",
+        "label": "Anna Jóna"
+      },
+      {
+        "href": "https://www.loroeats.com/",
+        "label": "Loro"
+      },
+      {
+        "href": "https://atrailtale.com/#/",
+        "label": "A Trail Tale"
+      },
+      {
+        "href": "https://www.lorenzodaldosso.it/",
+        "label": "Lorenzo Dal Dosso"
+      },
+      {
+        "href": "https://www.kodingkitty.com/blog/",
+        "label": "Koding Kitty"
+      },
+      {
+        "href": "https://userinyerface.com/",
+        "label": "User Inyerface"
+      },
+      {
+        "href": "https://www.baggu.com/collections/cross-body-bags",
+        "label": "Baggu"
+      },
+      {
+        "href": "https://www.rcarecords.com/",
+        "label": "RCA Records"
+      }
+    ]
+  },
+  {
+    "title": "Jobs",
+    "contents": [
+      {
+        "href": "https://hackajob.com/talent",
+        "label": "hackajob"
+      },
+      {
+        "href": "https://console.dev/",
+        "label": "Console "
+      },
+      {
+        "href": "https://github.com/lydiahallie/javascript-questions",
+        "label": "Advanced JavaScript questions"
+      },
+      {
+        "href": "https://h5bp.org/Front-end-Developer-Interview-Questions/questions/css-questions/",
+        "label": "CSS Questions"
+      },
+      {
+        "href": "https://madewithvuejs.com/jobs",
+        "label": "Vue Jobs"
+      },
+      {
+        "href": "https://www.awwwards.com/jobs/search/",
+        "label": "Awwwards"
+      },
+      {
+        "href": "https://astro.build/careers/",
+        "label": "Astro"
+      },
+      {
+        "href": "https://weworkremotely.com/",
+        "label": "We Work Remotely"
+      },
+      {
+        "href": "https://remoteok.com/",
+        "label": "Remote OK"
+      },
+      {
+        "href": "https://jschimp.com/",
+        "label": "JS Chimp"
+      },
+      {
+        "href": "https://www.jobsfromlarry.com/",
+        "label": "Jobs from Larry"
+      },
+      {
+        "href": "https://jsjobbs.com/",
+        "label": "JsJobbs"
+      },
+      {
+        "href": "https://www.frontendinterviewhandbook.com/html-questions",
+        "label": "Front End Interview Handbook"
+      },
+      {
+        "href": "https://divize.io/",
+        "label": "Code Small UIs Effectively"
+      }
+    ]
+  },
+  {
+    "title": "Layout",
+    "contents": [
+      {
+        "href": "https://bradfrost.github.io/this-is-responsive/patterns.html",
+        "label": "Responsive Patterns"
+      }
+    ]
+  },
+  {
+    "title": "Libraries",
+    "contents": [
+      {
+        "href": "https://vueuse.org/",
+        "label": "Vue Use"
+      },
+      {
+        "href": "https://usehooks.com",
+        "label": "useHooks"
+      },
+      {
+        "href": "https://driverjs.com/",
+        "label": "Driver.js"
+      }
+    ]
+  },
+  {
+    "title": "Peeps",
+    "contents": [
+      {
+        "href": "https://www.zachleat.com/",
+        "label": "Zach Leatherman"
+      },
+      {
+        "href": "https://blog.stephaniestimac.com/",
+        "label": "Stephanie Stimac"
+      },
+      {
+        "href": "https://charm.sh/blog/",
+        "label": "Charm"
+      },
+      {
+        "href": "https://surma.dev/",
+        "label": "Surma"
+      },
+      {
+        "href": "https://www.sarasoueidan.com/",
+        "label": "Sara Soueidan"
+      },
+      {
+        "href": "https://nikoheikkila.fi/",
+        "label": "Niko Heikkilä"
+      },
+      {
+        "href": "https://cassidoo.co/",
+        "label": "Cassidy Williams"
+      },
+      {
+        "href": "https://nolanlawson.com/",
+        "label": "Nolan Lawson"
+      },
+      {
+        "href": "https://rachsmith.com/",
+        "label": "Rach Smith"
+      },
+      {
+        "href": "https://www.miriamsuzanne.com/",
+        "label": "Miriam Eric Suzanne"
+      },
+      {
+        "href": "https://www.matuzo.at/",
+        "label": "Manuel Matuzović"
+      },
+      {
+        "href": "https://localghost.dev/",
+        "label": "localghost"
+      },
+      {
+        "href": "https://crinkles.dev/",
+        "label": "Kevin Pennekamp"
+      },
+      {
+        "href": "https://joshcollinsworth.com/",
+        "label": "Josh Collinsworth"
+      },
+      {
+        "href": "https://frontendfoc.us/",
+        "label": "Frontend Focus"
+      },
+      {
+        "href": "https://daverupert.com/",
+        "label": "Dave Rupert"
+      },
+      {
+        "href": "https://css-irl.info/",
+        "label": " Michelle Barker"
+      },
+      {
+        "href": "https://web.dev/",
+        "label": "web.dev"
+      },
+      {
+        "href": "https://chriscoyier.net/",
+        "label": "Chris Coyier"
+      },
+      {
+        "href": "https://chenhuijing.com/#%F0%9F%A7%97%E2%80%8D%E2%99%80%EF%B8%8F",
+        "label": "Chen Hui Jing"
+      },
+      {
+        "href": "https://www.bram.us/",
+        "label": "Bramus"
+      },
+      {
+        "href": "https://bradfrost.tech/blog",
+        "label": "Brad Frost"
+      },
+      {
+        "href": "https://andy-bell.co.uk/",
+        "label": "Andy Bell"
+      },
+      {
+        "href": "https://ishadeed.com/",
+        "label": "Ahmad Shadeed"
+      },
+      {
+        "href": "https://adrianroselli.com/",
+        "label": "Adrian Roselli"
+      },
+      {
+        "href": "https://kizu.dev/",
+        "label": "Roman Komarov"
+      },
+      {
+        "href": "https://lea.verou.me/",
+        "label": "Lea Verou"
+      },
+      {
+        "href": "https://www.joshmedeski.com/",
+        "label": "Josh Medeski"
+      }
+    ]
+  },
+  {
+    "title": "Performance",
+    "contents": [
+      {
+        "href": "https://roadmap.sh/best-practices/frontend-performance",
+        "label": "Frontend Performance Best Practices"
+      },
+      {
+        "href": "https://www.debugbear.com/html-size-analyzer",
+        "label": "HTML Size Analyzer"
+      },
+      {
+        "href": "https://www.debugbear.com/resource-hint-validator",
+        "label": "DebugBear"
+      },
+      {
+        "href": "https://www.debugbear.com/chrome-extension-performance-lookup",
+        "label": "Chrome Extension Performance Lookup"
+      },
+      {
+        "href": "https://pagespeed.web.dev/",
+        "label": "PageSpeed Insights"
+      },
+      {
+        "href": "https://www.webpagetest.org/",
+        "label": "WebPageTest"
+      },
+      {
+        "href": "https://www.projectwallace.com/css-code-quality?",
+        "label": "Online CSS Code Quality Analyzer"
+      },
+      {
+        "href": "https://purifycss.online/",
+        "label": "PurifyCSS"
+      },
+      {
+        "href": "https://bundlephobia.com/",
+        "label": "Bundlephobia"
+      },
+      {
+        "href": "https://packagephobia.com/",
+        "label": "Package Phobia"
+      },
+      {
+        "href": "https://unpkg.com/",
+        "label": "UNPKG"
+      },
+      {
+        "href": "https://bundle-buddy.com/",
+        "label": "Bundle Buddy"
+      },
+      {
+        "href": "https://www.npmjs.com/package/source-map-explorer",
+        "label": "Source Map Explorer"
+      },
+      {
+        "href": "https://web.dev/inp/",
+        "label": "INP"
+      },
+      {
+        "href": "https://web.dev/cls/",
+        "label": "CLS"
+      },
+      {
+        "href": "https://web.dev/fcp/",
+        "label": "FCP"
+      },
+      {
+        "href": "https://developer.chrome.com/docs/devtools/performance/",
+        "label": "Dev Tools"
+      },
+      {
+        "href": "https://www.speedcurve.com/blog/interaction-to-next-paint-core-web-vitals/",
+        "label": "SpeedCurve | INP"
+      },
+      {
+        "href": "https://www.speedcurve.com/blog/web-performance-poverty-line/",
+        "label": "SpeedCurve"
+      },
+      {
+        "href": "https://csswizardry.com/ct/",
+        "label": "CSS Wizardry - CT"
+      },
+      {
+        "href": "https://chrome.google.com/webstore/detail/capo-get-your-%EF%B9%A4%F0%9D%9A%91%F0%9D%9A%8E%F0%9D%9A%8A%F0%9D%9A%8D%EF%B9%A5/ohabpnaccigjhkkebjofhpmebofgpbeb",
+        "label": "capo"
+      },
+      {
+        "href": "https://pkg-size.dev/",
+        "label": "Package Size"
+      }
+    ]
+  },
+  {
+    "title": "SVG",
+    "contents": [
+      {
+        "href": "https://www.svgshapes.in/",
+        "label": "SVG Shapes"
+      },
+      {
+        "href": "https://jakearchibald.github.io/svgomg/",
+        "label": "SVGOMG"
+      },
+      {
+        "href": "https://boxy-svg.com/",
+        "label": "Boxy SVG Editor"
+      },
+      {
+        "href": "https://svg-path-visualizer.netlify.app/#M140%2020C73%2020%2020%2074%2020%20140c0%20135%20136%20170%20228%20303%2088-132%20229-173%20229-303%200-66-54-120-120-120-48%200-90%2028-109%2069-19-41-60-69-108-69z",
+        "label": "SVG Path Visualizer"
+      },
+      {
+        "href": "https://pavellaptev.github.io/warp-svg/",
+        "label": "Warp SVG"
+      },
+      {
+        "href": "https://fffuel.co/sssvg/#viewbox",
+        "label": "SSSVG"
+      }
+    ]
+  },
+  {
+    "title": "Testing",
+    "contents": [
+      {
+        "href": "https://filiphric.com/blog",
+        "label": "Filip Hric"
+      }
+    ]
+  },
+  {
+    "title": "TypeScript",
+    "contents": [
+      {
+        "href": "https://github.com/gibbok/typescript-book/blob/main/README.md#typescript-configuration-file-tsconfigjson",
+        "label": "TypeSCript Concise Book"
+      }
+    ]
+  },
+  {
+    "title": "Typography",
+    "contents": [
+      {
+        "href": "https://www.typewolf.com/",
+        "label": "Typewolf"
+      },
+      {
+        "href": "https://typedesignresources.com/",
+        "label": "Type Design Resources"
+      },
+      {
+        "href": "https://modernfontstacks.com/",
+        "label": "Modern Font Stacks"
+      },
+      {
+        "href": "https://www.fontpair.co/",
+        "label": "Fontpair"
+      },
+      {
+        "href": "https://www.fontshare.com/",
+        "label": "Fontshare"
+      },
+      {
+        "href": "https://v-fonts.com/",
+        "label": "Variable Fonts"
+      },
+      {
+        "href": "https://typescale.com/",
+        "label": "Type Scale Calculator"
+      },
+      {
+        "href": "https://utopia.fyi/",
+        "label": "Utopia"
+      },
+      {
+        "href": "https://play.typedetail.com/",
+        "label": "Variable Font Playground"
+      },
+      {
+        "href": "https://fonts.google.com/",
+        "label": "Google Fonts"
+      },
+      {
+        "href": "https://fontsource.org/fonts/open-sans",
+        "label": "Fontsource"
+      },
+      {
+        "href": "https://www.fluid-type-scale.com/",
+        "label": "Fluid Type Scale Generator"
+      },
+      {
+        "href": "https://modern-fluid-typography.vercel.app/",
+        "label": "Modern Fluid Typography Editor"
+      },
+      {
+        "href": "https://git.dayl.in/daylin/monolisa-nerdfont-patch",
+        "label": "Patch MonoLisa with Nerd Fonts"
+      }
+    ]
+  },
+  {
+    "title": "UI/UX",
+    "contents": [
+      {
+        "href": "https://www.checklist.design/element-checklists",
+        "label": "Element Checklists"
+      },
+      {
+        "href": "https://builtformars.com/ux-glossary",
+        "label": "UX Psychology"
+      }
+    ]
+  },
+  {
+    "title": "Utilities: CSS",
+    "contents": [
+      {
+        "href": "https://modernizr.com/",
+        "label": "Modernizr"
+      },
+      {
+        "href": "https://wweb.dev/resources/css-separator-generator",
+        "label": "CSS Section Separator Generator"
+      },
+      {
+        "href": "https://neumorphism.io/#e0e0e0",
+        "label": "Neumorphism/Soft UI CSS shadow generator"
+      },
+      {
+        "href": "https://www.learnui.design/tools/gradient-generator.html",
+        "label": "CSS Gradient Generator Tool"
+      },
+      {
+        "href": "https://polypane.app/css-specificity-calculator#selector=%23nliven-v2%20.admin-form%20.event-tickets__inputs%20.col-xs-6.form-group.left-input%0A",
+        "label": "Specificity Calculator"
+      },
+      {
+        "href": "https://easyeasings.com/",
+        "label": "Keyframes easings Editor"
+      },
+      {
+        "href": "https://min-max-calculator.9elements.com/",
+        "label": "Min-Max-Value Interpolation"
+      },
+      {
+        "href": "https://mediaquery.style/",
+        "label": "What Was That Media Query Code Again?"
+      },
+      {
+        "href": "https://css.land/ranges/",
+        "label": "CSS Linear Range Mapping for Custom Properties"
+      }
+    ]
+  },
+  {
+    "title": "Utilities: FE",
+    "contents": [
+      {
+        "href": "https://iwanttouse.com/",
+        "label": "I Want To Use"
+      },
+      {
+        "href": "https://codepo8.github.io/dearconsole/",
+        "label": "Dear Console"
+      },
+      {
+        "href": "https://jsoncrack.com/editor",
+        "label": "JSON Crack"
+      },
+      {
+        "href": "https://www.canidev.tools/",
+        "label": "Can I DevTools?"
+      },
+      {
+        "href": "https://regex101.com/",
+        "label": "Regex"
+      },
+      {
+        "href": "https://www.fetoolkit.io/",
+        "label": "Frontend Toolkit"
+      },
+      {
+        "href": "https://www.autoregex.xyz/",
+        "label": "AutoRegex"
+      },
+      {
+        "href": "https://better-mobile-inputs.netlify.app/?android=false&autocomplete=one-time-code&inputmode=decimal&type=search",
+        "label": "Better Mobile Inputs"
+      },
+      {
+        "href": "https://www.buttoncheatsheet.com/",
+        "label": "The Button Cheat Sheet"
+      },
+      {
+        "href": "http://youmightnotneedjs.com/",
+        "label": "You Might Not Need JavaScript"
+      },
+      {
+        "href": "https://scrollbar.app/",
+        "label": "Scrollbar"
+      },
+      {
+        "href": "https://www.favicon.software/",
+        "label": "Favicon Generator"
+      }
+    ]
+  },
+  {
+    "title": "Version Control",
+    "contents": [
+      {
+        "href": "https://ohshitgit.com/",
+        "label": "Oh Shit, Git!?!"
+      },
+      {
+        "href": "https://gitexplorer.com/",
+        "label": "Git Explorer"
+      },
+      {
+        "href": "https://graphite.dev/cli",
+        "label": "CLI - Graphite"
+      },
+      {
+        "href": "https://www.withmaverick.com/",
+        "label": "Maverick - The copilot for Copilot"
+      },
+      {
+        "href": "https://stackoverflow.com/questions/936249/how-to-stop-tracking-and-ignore-changes-to-a-file-in-git",
+        "label": "Git - Ignoring Changes"
+      }
+    ]
+  },
+  {
+    "title": "Web APIs",
+    "contents": [
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API",
+        "label": "Web Animations API"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/HTML_DOM_API",
+        "label": "The HTML DOM API"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API",
+        "label": "Canvas API"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API",
+        "label": "Intersection Observer API"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/Storage_API",
+        "label": "Storage API"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/Resize_Observer_API",
+        "label": "Resize Observer API"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API",
+        "label": "IndexedDB API"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/History_API",
+        "label": "History API"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/File_System_Access_API",
+        "label": "File System Access API"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/URL_API",
+        "label": "URL API"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+        "label": "Pointer events"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/Popover_API",
+        "label": "Popover API"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+        "label": "Document Object Model (DOM)"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API",
+        "label": "Fetch API"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/CSS_Typed_OM_API",
+        "label": "CSS Typed Object Model API"
+      },
+      {
+        "href": "https://developer.mozilla.org/en-US/docs/Web/API/View_Transitions_API",
+        "label": "View Transitions API"
+      }
+    ]
+  },
+  {
+    "title": "Web Vitals",
+    "contents": [
+      {
+        "href": "https://unlighthouse.dev/",
+        "label": "Unlighthouse"
+      },
+      {
+        "href": "https://webvitals.dev/cls",
+        "label": "Cumulative Layout Shift (CLS)"
+      }
+    ]
+  },
+  {
+    "title": "Web Components",
+    "contents": [
+      {
+        "href": "https://htmlwithsuperpowers.netlify.app/using/systems.html",
+        "label": "Design Systems"
+      },
+      {
+        "href": "https://uiverse.io/",
+        "label": "Open-Source UI Elements"
+      },
+      {
+        "href": "https://open-ui.org/components/alert.research/",
+        "label": "Open UI Components"
+      },
+      {
+        "href": "https://explore.fast.design/components/fast-accordion",
+        "label": "FAST Components"
+      },
+      {
+        "href": "https://shoelace.style/components/skeleton",
+        "label": "Skeleton Components"
+      },
+      {
+        "href": "https://webcomponents.dev/blog/all-the-ways-to-make-a-web-component/#bundle-size",
+        "label": "Web Components"
+      }
+    ]
+  },
+  {
+    "title": "3D",
+    "contents": [
+      {
+        "href": "https://app.spline.design/tutorials",
+        "label": "Spline"
+      },
+      {
+        "href": "https://threejs-journey.com/",
+        "label": "Three.js Journey"
+      }
+    ]
+  },
+  {
+    "title": "Databases",
+    "contents": [
+      {
+        "href": "https://turso.tech/",
+        "label": "Turso - SQLite At The Edge"
+      }
+    ]
+  }
+]
