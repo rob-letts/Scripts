@@ -1,6 +1,6 @@
 # Scripts
 
-- Banner
+- Inclusive Design Banner
   - Custom banner for opening shell prompt
   - Draws data from a static copy of Heydon Pickering's Inclusive Design Checklist
   - Raw JSON backup required whilst Deno KV is in beta
