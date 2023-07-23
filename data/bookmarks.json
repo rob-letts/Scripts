@@ -26,6 +26,10 @@
       {
         "href": "https://frontendmasters.com/courses/algorithms/",
         "label": "Front End Masters - Algorithms"
+      },
+      {
+        "href": "https://github.com/trekhleb/javascript-algorithms",
+        "label": "JavaScript Algorithms"
       }
     ]
   },
@@ -1055,6 +1059,10 @@
       {
         "href": "https://www.favicon.software/",
         "label": "Favicon Generator"
+      },
+      {
+        "href": "https://mdigi.tools/json-viewer/",
+        "label": "JSON Viewer"
       }
     ]
   },
