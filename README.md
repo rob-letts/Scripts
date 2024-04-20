@@ -13,7 +13,3 @@
 
 - Gittum
   - A git commit formatter and branch deleter CLI
-  - WIP: Convert to Deno implementation
-
-- Bookmarker (WIP)
-  - Tool to recall and open saved web resources in your browser, from the command line
