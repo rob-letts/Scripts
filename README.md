@@ -13,3 +13,6 @@
 
 - Gittum
   - A git commit formatter and branch deleter CLI
+
+- Bookmarker [WIP]
+  - Recall JSON Bookmarks CLI
